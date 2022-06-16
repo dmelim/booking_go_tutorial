@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/dmelim/bookings/pkg/config"
-	"github.com/dmelim/bookings/pkg/models"
-	"github.com/dmelim/bookings/pkg/render"
+	"github.com/dmelim/bookings/internal/config"
+	"github.com/dmelim/bookings/internal/models"
+	"github.com/dmelim/bookings/internal/render"
 )
 
 // Repo the repository used by the handlers

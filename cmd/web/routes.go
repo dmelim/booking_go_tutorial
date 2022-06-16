@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/dmelim/bookings/pkg/config"
-	"github.com/dmelim/bookings/pkg/handlers"
+	"github.com/dmelim/bookings/internal/config"
+	"github.com/dmelim/bookings/internal/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 )

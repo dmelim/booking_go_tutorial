@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/dmelim/bookings/pkg/config"
-	"github.com/dmelim/bookings/pkg/handlers"
-	"github.com/dmelim/bookings/pkg/render"
+	"github.com/dmelim/bookings/internal/config"
+	"github.com/dmelim/bookings/internal/handlers"
+	"github.com/dmelim/bookings/internal/render"
 )
 
 const portNumber = ":8080"
